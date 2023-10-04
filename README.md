@@ -8,16 +8,19 @@ Ensure you have Python and pip installed. Next, install the required dependencie
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Usage
 
 ```bash
 python url_checker.py -f [path_to_file]
+```
 
 Example:
 
 ```bash
 python url_checker.py -f urls.txt
+```
 
 Upon completion, live URLs will be written to live.txt.
 
